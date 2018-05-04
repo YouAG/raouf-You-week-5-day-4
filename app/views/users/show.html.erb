@@ -1,0 +1,15 @@
+<h1>La page de  <%= @user.name%> !</h1>
+
+<h2> ⚡️ Les évènements que <%= @user.name%> a créés </h2>
+
+<% @user.created_events.each do |evt| %>
+<p><%= evt.name %>
+   <%= link_to "o", event_path(evt) %></p>
+<% end %>
+
+<h2> 🎉 Les évènements auxquels <%= @user.name%> va participer </h2>
+
+<% @user.attended_events.each do |evt| %>
+<p><%= evt.name %>
+   <%= link_to "o", event_path(evt) %></p>
+<% end %>

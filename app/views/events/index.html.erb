@@ -1,0 +1,7 @@
+<h1> Tous les évènements</h1>
+
+<% @events.each do |evt| %>
+<p><%= link_to 'o', event_path(evt) %>
+<%= evt.name %></p>
+<br/>
+<% end %>
