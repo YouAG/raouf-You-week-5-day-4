@@ -18,6 +18,8 @@ puis un <br>
 
 puis si ça marche pas installe la version de Rails demandée :)
 
+On a pas réussi a heberger correctement sur Heroku !! :'( :'(
+
 voilà Champion ou Championne ( pas de discriminsation chez nous )
 
 
